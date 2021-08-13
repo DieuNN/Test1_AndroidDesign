@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/recyclerview_textview_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="name example" />
+
+    <TextView
+        android:id="@+id/recyclerview_textview_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/recyclerview_textview_name"
+        android:text=" phone example" />
+
+    <ImageButton
+        android:id="@+id/recyclerview_button_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/ic_baseline_edit_24" />
+
+    <ImageButton
+        android:id="@+id/recyclerview_button_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/recyclerview_button_edit"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/ic_baseline_delete_24" />
+
+</RelativeLayout>
